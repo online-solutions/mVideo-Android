@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_favorite"
+        app:showAsAction="ifRoom|withText"
+        android:title="Add to Favorite"
+        android:visible="true"/>
+    <item
+        android:id="@+id/view_full_screen"
+        app:showAsAction="ifRoom|withText"
+        android:title="View fullscreen"
+        android:visible="true"/>
+    <item
+        android:id="@+id/download"
+        app:showAsAction="ifRoom|withText"
+        android:title="Download movie"
+        android:visible="true" />
+    <item
+        android:id="@+id/share"
+        app:showAsAction="ifRoom|withText"
+        android:title="Share..."
+        android:visible="true" />
+</menu>
